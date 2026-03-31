@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box-container h2{
+    text-align: center;
+}
+
+/* CSS FOR BODY  */
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url("bgi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* CSS FOR FORM CONTAINER */
+.box-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    width: 550px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0,0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+
+.box-container h2{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0px;
+
+}
+
+/* CSS FOR FORM */
+
+.form-group{
+    position: relative;
+    width:100%;
+    margin:20px 0px
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 0px 30px 0px 10px;
+    border-bottom: 2px solid white;
+}
+
+.form-group label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: white;
+    transition: 0.5s;
+}
+
+input:focus ~label,
+input:valid ~label{
+    top: -4px;
+    font-size: 12px;
+}
+
+.form-group i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+
+.para{
+    color: white;
+}
+
+.country{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+#btn{
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border-radius: 40px;
+    border: none;
+    margin: 15px 0px; 
+    transition: 0.5s;
+}
+
+#btn:hover{
+    background-color: rgb(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+}
