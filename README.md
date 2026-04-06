@@ -27,6 +27,12 @@ This project features smooth animations, glassmorphism design, and a clean user 
 
 ---
 
+## 🚀 Live Demo
+
+👉 [Click here to view live](https://animated-signup-page.netlify.app/)
+
+---
+
 ## 🙌 Author
 Saurabh Raj  
 
